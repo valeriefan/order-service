@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "shop",
+      "type": "com.bookshop.orderservice.config.ClientProperties",
+      "sourceType": "com.bookshop.orderservice.config.ClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "shop.catalog-service-uri",
+      "type": "java.net.URI",
+      "sourceType": "com.bookshop.orderservice.config.ClientProperties"
+    }
+  ],
+  "hints": []
+}
