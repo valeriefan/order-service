@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bookshop.orderservice.order.web.OrderControllerWebFluxTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-15T19:29:33" hostname="ValeriedeMacBook-Pro.local" time="0.114">
+<testsuite name="com.bookshop.orderservice.order.web.OrderControllerWebFluxTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-15T19:34:16" hostname="ValeriedeMacBook-Pro.local" time="0.135">
   <properties/>
-  <testcase name="whenBookNotAvailableThenRejectOrder()" classname="com.bookshop.orderservice.order.web.OrderControllerWebFluxTests" time="0.114"/>
-  <system-out><![CDATA[2024-11-16T03:29:33.698+08:00  INFO 83389 --- [order-service] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.bookshop.orderservice.order.web.OrderControllerWebFluxTests]: OrderControllerWebFluxTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-11-16T03:29:33.709+08:00  INFO 83389 --- [order-service] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.bookshop.orderservice.OrderServiceApplication for test class com.bookshop.orderservice.order.web.OrderControllerWebFluxTests
+  <testcase name="whenBookNotAvailableThenRejectOrder()" classname="com.bookshop.orderservice.order.web.OrderControllerWebFluxTests" time="0.135"/>
+  <system-out><![CDATA[2024-11-16T03:34:15.958+08:00  INFO 83809 --- [order-service] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.bookshop.orderservice.order.web.OrderControllerWebFluxTests]: OrderControllerWebFluxTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-16T03:34:15.967+08:00  INFO 83809 --- [order-service] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.bookshop.orderservice.OrderServiceApplication for test class com.bookshop.orderservice.order.web.OrderControllerWebFluxTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,7 +14,7 @@
 
  :: Spring Boot ::                (v3.3.5)
 
-2024-11-16T03:29:33.746+08:00  WARN 83389 --- [order-service] [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+2024-11-16T03:34:16.044+08:00  WARN 83809 --- [order-service] [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
 
 Found multiple occurrences of org.json.JSONObject on the class path:
 
@@ -23,18 +23,18 @@ Found multiple occurrences of org.json.JSONObject on the class path:
 
 You may wish to exclude one of them to ensure predictable runtime behavior
 
-2024-11-16T03:29:33.747+08:00  INFO 83389 --- [order-service] [    Test worker] c.b.o.o.web.OrderControllerWebFluxTests  : Starting OrderControllerWebFluxTests using Java 17.0.13 with PID 83389 (started by valeriefan in /Users/valeriefan/Desktop/bookshop/order-service)
-2024-11-16T03:29:33.747+08:00  INFO 83389 --- [order-service] [    Test worker] c.b.o.o.web.OrderControllerWebFluxTests  : No active profile set, falling back to 1 default profile: "default"
-2024-11-16T03:29:33.748+08:00  INFO 83389 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
-2024-11-16T03:29:33.748+08:00  INFO 83389 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/order-service/default": Connection refused. Will be trying the next url if available
-2024-11-16T03:29:33.748+08:00  WARN 83389 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@2e90a3de uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/order-service/default": Connection refused
-2024-11-16T03:29:33.748+08:00  INFO 83389 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
-2024-11-16T03:29:33.748+08:00  INFO 83389 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/order-service/default": Connection refused. Will be trying the next url if available
-2024-11-16T03:29:33.748+08:00  WARN 83389 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@532860c7 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/order-service/default": Connection refused
-2024-11-16T03:29:33.748+08:00  INFO 83389 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
-2024-11-16T03:29:33.748+08:00  INFO 83389 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/order-service/default": Connection refused. Will be trying the next url if available
-2024-11-16T03:29:33.748+08:00  WARN 83389 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@9d573a6 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/order-service/default": Connection refused
-2024-11-16T03:29:33.958+08:00  INFO 83389 --- [order-service] [    Test worker] c.b.o.o.web.OrderControllerWebFluxTests  : Started OrderControllerWebFluxTests in 0.248 seconds (process running for 6.316)
+2024-11-16T03:34:16.047+08:00  INFO 83809 --- [order-service] [    Test worker] c.b.o.o.web.OrderControllerWebFluxTests  : Starting OrderControllerWebFluxTests using Java 17.0.13 with PID 83809 (started by valeriefan in /Users/valeriefan/Desktop/bookshop/order-service)
+2024-11-16T03:34:16.048+08:00  INFO 83809 --- [order-service] [    Test worker] c.b.o.o.web.OrderControllerWebFluxTests  : No active profile set, falling back to 1 default profile: "default"
+2024-11-16T03:34:16.051+08:00  INFO 83809 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-11-16T03:34:16.052+08:00  INFO 83809 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/order-service/default": Connection refused. Will be trying the next url if available
+2024-11-16T03:34:16.052+08:00  WARN 83809 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@532860c7 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/order-service/default": Connection refused
+2024-11-16T03:34:16.052+08:00  INFO 83809 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-11-16T03:34:16.052+08:00  INFO 83809 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/order-service/default": Connection refused. Will be trying the next url if available
+2024-11-16T03:34:16.053+08:00  WARN 83809 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@9d573a6 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/order-service/default": Connection refused
+2024-11-16T03:34:16.053+08:00  INFO 83809 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-11-16T03:34:16.054+08:00  INFO 83809 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/order-service/default": Connection refused. Will be trying the next url if available
+2024-11-16T03:34:16.054+08:00  WARN 83809 --- [order-service] [    Test worker] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@62ccbd95 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/order-service/default": Connection refused
+2024-11-16T03:34:16.380+08:00  INFO 83809 --- [order-service] [    Test worker] c.b.o.o.web.OrderControllerWebFluxTests  : Started OrderControllerWebFluxTests in 0.41 seconds (process running for 6.512)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

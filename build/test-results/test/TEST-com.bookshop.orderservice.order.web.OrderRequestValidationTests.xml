@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bookshop.orderservice.order.web.OrderRequestValidationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-15T19:29:34" hostname="ValeriedeMacBook-Pro.local" time="0.011">
+<testsuite name="com.bookshop.orderservice.order.web.OrderRequestValidationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-15T19:34:16" hostname="ValeriedeMacBook-Pro.local" time="0.019">
   <properties/>
-  <testcase name="whenQuantityIsGreaterThanMaxThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.008"/>
+  <testcase name="whenQuantityIsGreaterThanMaxThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.013"/>
   <testcase name="whenQuantityIsNotDefinedThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.001"/>
-  <testcase name="whenAllFieldsCorrectThenValidationSucceeds()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.001"/>
+  <testcase name="whenAllFieldsCorrectThenValidationSucceeds()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.0"/>
   <testcase name="whenQuantityIsLowerThanMinThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.0"/>
-  <testcase name="whenIsbnNotDefinedThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.0"/>
+  <testcase name="whenIsbnNotDefinedThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
