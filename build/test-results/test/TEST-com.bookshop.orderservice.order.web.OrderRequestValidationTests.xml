@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bookshop.orderservice.order.web.OrderRequestValidationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-15T09:01:01" hostname="ValeriedeMacBook-Pro.local" time="0.046">
+<testsuite name="com.bookshop.orderservice.order.web.OrderRequestValidationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-15T19:29:34" hostname="ValeriedeMacBook-Pro.local" time="0.011">
   <properties/>
-  <testcase name="whenQuantityIsGreaterThanMaxThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.043"/>
-  <testcase name="whenQuantityIsNotDefinedThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.0"/>
-  <testcase name="whenAllFieldsCorrectThenValidationSucceeds()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.0"/>
-  <testcase name="whenQuantityIsLowerThanMinThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.001"/>
+  <testcase name="whenQuantityIsGreaterThanMaxThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.008"/>
+  <testcase name="whenQuantityIsNotDefinedThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.001"/>
+  <testcase name="whenAllFieldsCorrectThenValidationSucceeds()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.001"/>
+  <testcase name="whenQuantityIsLowerThanMinThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.0"/>
   <testcase name="whenIsbnNotDefinedThenValidationFails()" classname="com.bookshop.orderservice.order.web.OrderRequestValidationTests" time="0.0"/>
-  <system-out><![CDATA[17:01:01.374 [Test worker] INFO org.hibernate.validator.internal.util.Version -- HV000001: Hibernate Validator 8.0.1.Final
-]]></system-out>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

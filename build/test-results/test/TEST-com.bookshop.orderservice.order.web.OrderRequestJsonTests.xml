@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bookshop.orderservice.order.web.OrderRequestJsonTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-15T19:29:34" hostname="ValeriedeMacBook-Pro.local" time="0.017">
+  <properties/>
+  <testcase name="testDeserialize()" classname="com.bookshop.orderservice.order.web.OrderRequestJsonTests" time="0.017"/>
+  <system-out><![CDATA[2024-11-16T03:29:34.215+08:00  INFO 83389 --- [order-service] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.bookshop.orderservice.order.web.OrderRequestJsonTests]: OrderRequestJsonTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-16T03:29:34.221+08:00  INFO 83389 --- [order-service] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.bookshop.orderservice.OrderServiceApplication for test class com.bookshop.orderservice.order.web.OrderRequestJsonTests
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
